@@ -1,0 +1,15 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self' https://indexa-console.pages.dev https://runtimedata.web.app; img-src * data:; style-src 'self' 'unsafe-inline'; script-src 'self'"><title>Indexa Browser</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="top"><div id="tabs"></div><button id="add" title="Новая вкладка (Ctrl+T)">+</button><span id="pbadge" hidden>Приватный режим</span></div>
+<div id="bar">
+<button class="nb" id="back" title="Назад"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+<button class="nb" id="fwd" title="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+<button class="nb" id="rel" title="Обновить"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 11-2.3-5.7M20 4v5h-5"/></svg></button>
+<button class="nb" id="home" title="Домой"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7M6 10v10h12V10"/></svg></button>
+<div id="abox"><button id="lock" class="lock search"></button><input id="addr" spellcheck="false" autocomplete="off" placeholder="Поиск в Indexa или адрес сайта"><button id="zoom" hidden></button><button id="star" class="nb sm" title="Закладка (Ctrl+D)"><svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 17l-5.4 2.8 1.1-6.1L3.2 9.4l6.1-.8z"/></svg></button><div id="sg"></div></div>
+<button class="nb" id="dlb" title="Загрузки (Ctrl+J)"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg><i id="dlbadge" hidden></i></button>
+<button class="nb" id="menu" title="Меню"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="12" cy="19" r="1.4"/></svg></button>
+</div>
+<div id="bmbar" hidden></div><div id="banner" hidden></div><div id="prog"></div><div id="views"></div>
+<div id="find" hidden><input id="fi" placeholder="Найти на странице"><span id="fc"></span><button id="fp">↑</button><button id="fn">↓</button><button id="fx">×</button></div>
+<div id="status"></div><div id="tip"></div><div id="tour" hidden><div class="hole"></div><div class="tcard"></div></div><div id="tctx"></div><div id="auth" hidden><form><h3>Требуется вход</h3><p id="ap"></p><input id="au_u" placeholder="Логин" autocomplete="off"><input id="au_p" type="password" placeholder="Пароль"><div class="row"><button class="b pri">Войти</button><button type="button" class="b" id="ac">Отмена</button></div></form></div><div id="drawer"></div><div id="menupop"></div><div id="pop"></div><div id="toasts"></div>
+<script src="config.js"></script><script src="app.js"></script></body></html>
